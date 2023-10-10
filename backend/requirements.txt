@@ -4,3 +4,4 @@ djangorestframework==3.14.0
 gradio_client==0.6.0
 openai==0.28.0
 python-dotenv==1.0.0
+django-cors-headers
