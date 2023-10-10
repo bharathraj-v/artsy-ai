@@ -1,0 +1,6 @@
+cloudinary==1.36.0
+Django==4.2.6
+djangorestframework==3.14.0
+gradio_client==0.6.0
+openai==0.28.0
+python-dotenv==1.0.0
