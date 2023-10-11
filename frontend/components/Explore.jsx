@@ -2,7 +2,7 @@ import ExplorePane from "./ExplorePane"
 
 const Explore = () => {
     return (
-        <div className="flex flex-row justify-between px-32 bg-[#EEEEEE]">
+        <div className="flex flex-row mt-12 justify-between px-32 bg-[#EEEEEE]">
             <div className="flex flex-col space-y-16 py-16">
                 <ExplorePane source="https://res.cloudinary.com/dqtt1tmgo/image/upload/v1696954572/r5rzzlxbwn2ddxoljtqn.jpg" />
                 <ExplorePane source="https://media.wired.com/photos/64f8c8a43e1a7b4810e35753/1:1/w_1365,h_1365,c_limit/AI-Copyright-The%CC%81a%CC%82tre_d'Ope%CC%81ra_Spatial-Culture.jpg" />
