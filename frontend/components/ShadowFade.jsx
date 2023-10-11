@@ -15,7 +15,7 @@ const ShadowFade = () => {
 
     return (
         <>
-            {show && <img src="shadow2.png" className="animate-fade invert blur-2xl h-screen w-screen scale-200  contrast-150  opacity-70" /> }
+            {show && <img src="shadow.png" className="animate-fade   h-screen w-screen scale-100  opacity-100" /> }
         </>
     )
 }

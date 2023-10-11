@@ -6,14 +6,14 @@ const Create = () => {
             Create your Art
         </p>
         <div className="flex justify-center mt-12 h-44 items-center align-center w-162 rounded-lg border-2 border-[#c5c5c5]">
-                    <div className="backdrop-filter backdrop-blur-sm bg-[#c4c4c4] bg-opacity-10  w-[100%] h-[100%] rounded-lg drop-shadow-md">
-                        <div className="w-[100%] h-[100%] px-4 py-3 text-[#3d3d3d]">
+                    <div className="backdrop-filter backdrop-blur-sm bg-[#FFFFFF] bg-opacity-10  w-[100%] h-[100%] rounded-lg drop-shadow-md">
+                        <div className="w-[100%] h-[100%] px-4 py-3 text-[#000000]">
                             <label className='flex'>
                                 {/* <p
                                     className="flex  antialiased accent-slate-500 text-[#636363] font-Inter bg-inherit text-md  w-[94%] focus:outline-none h-44 resize-none"
                                 >{bgText}</p> */}
                                 <textarea
-                                    className="absolute bg-inherit antialiased accent-slate-500 text-[#202020] font-Inter  text-base  w-[94%] focus:outline-none h-36 resize-none"
+                                    className="absolute bg-inherit antialiased accent-slate-500 text-[#000000] font-Inter  text-base  w-[94%] focus:outline-none h-36 resize-none"
                                     type="text"
                                     placeholder="Describe your desired art in a detailed manner"
                          

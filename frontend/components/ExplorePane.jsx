@@ -1,7 +1,7 @@
-const ExplorePane = () => {
+const ExplorePane = ({source}) => {
     return (
-             <div className="flex w-128 bg-red-200 h-128">
-                <img  src = "https://res.cloudinary.com/dqtt1tmgo/image/upload/v1696954572/r5rzzlxbwn2ddxoljtqn.jpg" className="w-128 object-contain h-128"/>
+             <div className="flex w-128 h-128">
+                <img  src = {source} className="w-128 rounded-xl object-contain h-128"/>
         </div>
         
        

@@ -5,11 +5,15 @@ import Navbar from '../components/Navbar'
 import ShadowFade from '../components/ShadowFade'
 import Create from '../components/Create'
 import ExplorePane from '../components/ExplorePane'
+import Explore from '../components/Explore'
 
 export default function Home() {
   return (
    <div className='bg-[#EEEEEE] w-screen h-screen'>
-    {/* <div className='absolute overflow-clip -mb-16'>
+    <div className='fixed w-screen h-screen'>
+      <Explore />
+      </div> 
+    <div className='absolute overflow-clip -mb-16'>
         <ShadowFade />
         </div>
     <div className='relative '>
@@ -17,10 +21,8 @@ export default function Home() {
         </div>
     <div className='relative'>
       <Create />
-      </div> */}
-    <div className=''>
-      <ExplorePane />
-      </div>      
+      </div>
+         
         
    </div>
   )
