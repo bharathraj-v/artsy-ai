@@ -5,7 +5,7 @@ const Create = () => {
         <p className="font-Inter font-semibold text-2xl">
             Create your Art
         </p>
-        <div className="flex justify-center mt-12 h-44 items-center align-center w-162 rounded-lg border-2 border-[#c5c5c5]">
+        <div className="flex justify-center mt-12 h-36 items-center align-center w-162 rounded-lg border-2 border-[#c5c5c5]">
                     <div className="backdrop-filter backdrop-blur-sm bg-[#FFFFFF] bg-opacity-10  w-[100%] h-[100%] rounded-lg drop-shadow-md">
                         <div className="w-[100%] h-[100%] px-4 py-3 text-[#000000]">
                             <label className='flex'>
@@ -23,7 +23,7 @@ const Create = () => {
                     </div>
                 </div>
                 <div className='flex items-center justify-center w-108'>
-                    <button className="flex mt-14 text-xl  justify-center rounded-md bg-[#636363] w-80 h-14 items-center hover:bg-[#3f3f3f]  font-Inter text-white"
+                    <button className="flex font-semibold mt-14 text-xl  justify-center rounded-md bg-[#636363] w-80 h-14 items-center hover:bg-[#3f3f3f]  font-Inter text-white"
                     >Create</button>
                 </div>
             </div>
