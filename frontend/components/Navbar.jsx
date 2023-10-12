@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = ({explore, setExplore}) => {
+const Navbar = ({explore, setExplore, generating}) => {
     return (
         <div className="h-20 px-32 w-screen bg-opacity-100 border-2 bg-white">
             <div className="flex justify-between items-center h-full">

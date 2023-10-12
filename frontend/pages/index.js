@@ -25,10 +25,10 @@ export default function Home() {
    <div className='bg-[#EEEEEE] w-screen h-screen'>
     <div className='fixed overflow-scroll w-screen h-screen'>
       {show && <div className='fixed w-screen h-screen'>
-      <Preview image={image} prompt={prompt} />
+      <Preview show={show} setShow={setShow} image={image} prompt={prompt} />
 
         </div>}
-      <Explore />
+      <Explore explore={explore} generating={generating}/>
       </div>
       <div className='relative '>
         <Navbar explore={explore} setExplore={setExplore} />

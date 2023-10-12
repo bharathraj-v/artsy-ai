@@ -5,7 +5,7 @@ const delay = ms => new Promise(
     resolve => setTimeout(resolve, ms)
   );
 
-const Create = ({explore, setExplore, image, setImage, prompt, setPrompt, generating, setGenerating}) => {
+const Create = ({explore, setExplore, image, setImage, prompt, setPrompt, generating, setGenerating, show, setShow}) => {
 
     const [emptyPrompt, setEmptyPrompt] = useState(false);
 
@@ -21,11 +21,20 @@ const Create = ({explore, setExplore, image, setImage, prompt, setPrompt, genera
         }
         setExplore(true);
         setGenerating(true);
-
-
-
-        console.log(prompt);
+        try {
+            const response = await axios.post("https://artsy-ai-backend.vercel.app/", {
+                prompt: prompt
+            });
+            console.log(response);
+            setImage(response.data.result);
+            setPrompt(response.data.prompt);
+            setGenerating(false);
+            setShow(true);
+        } catch (error) {
+            console.log(error);
+        }
     }
+
     return (
         <div className="flex  py-16 w-screen justify-center">
             <div className="flex flex-col justify-center items-center">
