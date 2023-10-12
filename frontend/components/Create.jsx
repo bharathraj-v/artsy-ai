@@ -22,7 +22,7 @@ const Create = ({explore, setExplore, image, setImage, prompt, setPrompt, genera
         setExplore(true);
         setGenerating(true);
         try {
-            const response = await axios.post("https://artsy-ai-backend.vercel.app/", {
+            const response = await axios.post("https://artsy-ai-backend.vercel.app/create", {
                 prompt: prompt
             });
             console.log(response);
