@@ -1,1 +1,1 @@
-![Screenshot](readme-image.png)
+### AI Art Platform built using Next.js and Django### AI Art Platform built using Next.js and Django
